@@ -4,8 +4,6 @@ import { useState } from "react";
 
 const Blog = () => {
     const [blogs, setBlog] = useState([]);
-    // const [blogs, setBlog] = useState([]);
-
     useEffect(()=>{
 
         fetch('blog.json')
