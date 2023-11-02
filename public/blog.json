@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "cover": "https://gcdnb.pbrd.co/images/UTmTthgniYvh.jpg",
+        "title": "Sample Book 1",
+        "author": "John Doe",
+        "author_img": "https://gcdnb.pbrd.co/images/WKHSqkNEUGgw.jpg?o=1",
+        "posted_date": "2023-11-02",
+        "reading_time": 30,
+        "hashtag": "#fiction #bestseller"
+    },
+    {
+        "id": 2,
+        "cover": "https://gcdnb.pbrd.co/images/PUbb2AL6KeF5.jpg?o=1",
+        "title": "Sample Book 2",
+        "author": "Jane Smith",
+        "author_img": "https://gcdnb.pbrd.co/images/WKHSqkNEUGgw.jpg?o=1",
+        "posted_date": "2023-11-03",
+        "reading_time": 45,
+        "hashtag": "#mystery #thriller"
+    },
+    {
+        "id": 3,
+        "cover": "https://gcdnb.pbrd.co/images/PUbb2AL6KeF5.jpg?o=1",
+        "title": "Sample Book 3",
+        "author": "Michael Johnson",
+        "author_img": "https://gcdnb.pbrd.co/images/WKHSqkNEUGgw.jpg?o=1",
+        "posted_date": "2023-11-04",
+        "reading_time": 60,
+        "hashtag": "#sci-fi #adventure"
+    }
+]
