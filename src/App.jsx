@@ -9,7 +9,8 @@ function App() {
   const[bookmarks,setBookmarks] = useState([]);
 
   const handleBookmarks = blog =>{
-    console.log('hello');
+    const newBookmarks = [...bookmarks,blog];
+    setBookmarks(newBookmarks);
   }
 
 
@@ -18,7 +19,7 @@ function App() {
     <Header></Header>
     <div className='md:flex max-w-7xl mx-auto gap-5'>
       <Blogs handleBookmarks={handleBookmarks}></Blogs>
-      <Bookmarks></Bookmarks>
+      <Bookmarks bookmarks={bookmarks}></Bookmarks>
     </div>
     </>
   )

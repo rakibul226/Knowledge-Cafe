@@ -5,7 +5,7 @@ const Blog = ({blog, handleBookmarks}) => {
     const {title,cover,reading_time,author,author_img,posted_date,hashtag}= blog;
     return (
         <div className='mb-20 mt-3'>
-            <img src={cover} alt={`Title of the cover ${title}`} />
+            <img className='h-4/5' src={cover} alt={`Title of the cover ${title}`} />
                 <div className='flex justify-between p-2'>
                     <div className='flex gap-2'>
                         <img className='w-12' src={author_img} alt="" />
@@ -16,7 +16,7 @@ const Blog = ({blog, handleBookmarks}) => {
                     </div>
                     <div>
                         <span>{reading_time} min read</span>
-                        <button onClick={handleBookmarks}className='ml-1'><BsBookmarks></BsBookmarks></button>
+                        <button onClick={() => handleBookmarks(blog)}className='ml-1'><BsBookmarks></BsBookmarks></button>
                         {/* <button><FaBeer></FaBeer></button> */}
                     </div>
                 </div>
@@ -29,7 +29,8 @@ const Blog = ({blog, handleBookmarks}) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleBookmarks: PropTypes.func.isRequired
 }
 
 export default Blog;
