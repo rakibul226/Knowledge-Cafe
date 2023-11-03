@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import { BsBookmarks } from 'react-icons/bs';
 
-const Blog = ({blog}) => {
+const Blog = ({blog, handleBookmarks}) => {
     const {title,cover,reading_time,author,author_img,posted_date,hashtag}= blog;
     return (
-        <div className='my-3'>
+        <div className='mb-20 mt-3'>
             <img src={cover} alt={`Title of the cover ${title}`} />
                 <div className='flex justify-between p-2'>
                     <div className='flex gap-2'>
@@ -14,7 +15,9 @@ const Blog = ({blog}) => {
                         </div>
                     </div>
                     <div>
-                        <h4>{reading_time} min read</h4>
+                        <span>{reading_time} min read</span>
+                        <button onClick={handleBookmarks}className='ml-1'><BsBookmarks></BsBookmarks></button>
+                        {/* <button><FaBeer></FaBeer></button> */}
                     </div>
                 </div>
             <h2 className='text-3xl'>{title}</h2>
