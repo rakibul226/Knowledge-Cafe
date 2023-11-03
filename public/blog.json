@@ -4,7 +4,7 @@
         "cover": "https://gcdnb.pbrd.co/images/UTmTthgniYvh.jpg",
         "title": "Sample Book 1",
         "author": "John Doe",
-        "author_img": "https://gcdnb.pbrd.co/images/WKHSqkNEUGgw.jpg?o=1",
+        "author_img": "../src/assets/images/boy1.png",
         "posted_date": "2023-11-02",
         "reading_time": 30,
         "hashtag": "#fiction #bestseller"
@@ -14,17 +14,17 @@
         "cover": "https://gcdnb.pbrd.co/images/PUbb2AL6KeF5.jpg?o=1",
         "title": "Sample Book 2",
         "author": "Jane Smith",
-        "author_img": "https://gcdnb.pbrd.co/images/WKHSqkNEUGgw.jpg?o=1",
+        "author_img": "../src/assets/images/boy2.png",
         "posted_date": "2023-11-03",
         "reading_time": 45,
         "hashtag": "#mystery #thriller"
     },
     {
         "id": 3,
-        "cover": "https://gcdnb.pbrd.co/images/PUbb2AL6KeF5.jpg?o=1",
+        "cover": "https://i.ibb.co/DDNjCYr/garrhet-sampson-Cm-F-5-GYc6c0-unsplash.jpg",
         "title": "Sample Book 3",
         "author": "Michael Johnson",
-        "author_img": "https://gcdnb.pbrd.co/images/WKHSqkNEUGgw.jpg?o=1",
+        "author_img": "../src/assets/images/girl1.jpg",
         "posted_date": "2023-11-04",
         "reading_time": 60,
         "hashtag": "#sci-fi #adventure"
